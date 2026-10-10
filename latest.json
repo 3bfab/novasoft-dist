@@ -1,0 +1,21 @@
+{
+  "issued_at": "2026-10-10T17:31:40Z",
+  "version": "4.3.3",
+  "channel": "main",
+  "released_at": "2026-10-10",
+  "file": "MegaPlatform-v4.3.3",
+  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.3.3/MegaPlatform-v4.3.3",
+  "sha256": "af7427384df69c7f511c7aa7dade33a2442c7e4f55f348a21942d2b0aa537fd1",
+  "size": 151941288,
+  "notes": {
+    "tr": [
+      "Arayüz düzeltmesi: güncelleme penceresindeki “Uygulamayı yeniden başlat” düğmesi artık taşmıyor.",
+      "Açılış düzeltmesi: uygulama, reçine sıcaklığını gerçek değeriyle göstererek açılır (önceden ilk saniye 2.0 görünebiliyordu)."
+    ],
+    "en": [
+      "Interface fix: the “Restart the app” button in the update window no longer overflows.",
+      "Start-up fix: the app opens showing the real resin temperature (it could show 2.0 for the first second)."
+    ]
+  },
+  "signature": "x2X+AV8vRqWW5G1BN9voUysiXEC2qraUGGIK+8Q9GIWwbNOxzDK8vzsA+iREnoRHk8U88BsErydRgsY+jUZmDQ=="
+}
