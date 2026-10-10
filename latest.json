@@ -1,25 +1,21 @@
 {
-  "issued_at": "2026-10-10T16:04:55Z",
-  "version": "4.3.0",
+  "issued_at": "2026-10-10T16:46:12Z",
+  "version": "4.3.1",
   "channel": "beta",
   "released_at": "2026-10-10",
-  "file": "MegaPlatform-v4.3.0",
-  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.3.0/MegaPlatform-v4.3.0",
-  "sha256": "9940fb70793e143f419df62a1e494aaafc7fbdf2b87e3e8aa52107f431ec9d21",
-  "size": 151939096,
+  "file": "MegaPlatform-v4.3.1",
+  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.3.1/MegaPlatform-v4.3.1",
+  "sha256": "071ab61804d966c07cda6f4456d825ed5661129ea946a1c6effadb3f8d01a18e",
+  "size": 151940528,
   "notes": {
     "tr": [
-      "Yazılım artık kendini güncelleyebiliyor: yeni sürüm çıktığında Ayarlar > Bilgi ekranında görünür, tek dokunuşla kurulur.",
-      "Güncellemeden önce mevcut sürümün ve verilerinizin yedeği alınır; yeni sürüm açılamazsa önceki sürüme otomatik dönülür.",
-      "FabSlicer ile uzaktan bağlantı daha kararlı.",
-      "Çeşitli hata düzeltmeleri ve iyileştirmeler."
+      "Güncelleme, masaüstündeki MegaPlatform programını yeniler; eski sürümün yedeği yanına MegaPlatform.bck olarak da alınır.",
+      "\"Yeniden başlat\" yalnızca uygulamayı yeniden başlatır, bilgisayar kapanmaz."
     ],
     "en": [
-      "The software can now update itself: a new version appears on Settings > Info and installs with one tap.",
-      "A backup of the current version and your data is taken before updating; if the new version cannot start, the previous one comes back automatically.",
-      "More stable remote connection with FabSlicer.",
-      "Various fixes and improvements."
+      "Updating replaces the MegaPlatform program on the desktop; the previous version is also kept next to it as MegaPlatform.bck.",
+      "\"Restart\" restarts only the application, not the computer."
     ]
   },
-  "signature": "xKKGAnSsAxcgYx/mFzhhO3LALrQJdMcaHK0AFcNUOiCO/PcXlghWtbqma5MGbknoO8pwosbPUatbK/QMdWzgAg=="
+  "signature": "ndmQSyiNypNI1TeoQH5dGvXNqlpstkcclvTTh1HkKlZ5yzFaKdSp9QdXSMwrTGNiimIaQIqu0vJywS3Gh8d6BQ=="
 }
