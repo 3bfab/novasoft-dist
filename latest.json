@@ -1,23 +1,21 @@
 {
-  "issued_at": "2026-10-12T13:08:43Z",
-  "version": "4.3.4",
+  "issued_at": "2026-10-12T13:50:37Z",
+  "version": "4.3.5",
   "channel": "main",
   "released_at": "2026-10-12",
-  "file": "MegaPlatform-v4.3.4",
-  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.3.4/MegaPlatform-v4.3.4",
-  "sha256": "ae30e0df48513d4c5f098623be1110e76c6e0666332c51c18f807456477aefc6",
-  "size": 151942600,
+  "file": "MegaPlatform-v4.3.5",
+  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.3.5/MegaPlatform-v4.3.5",
+  "sha256": "7fb55285e48b52119f9b23e2e75ce24184cb26c0b030ed800badce6a7a9a3121",
+  "size": 152381784,
   "notes": {
     "tr": [
-      "Model kontrolü hızlandı: dilimlemeden sonraki ada (island) kontrolü yaklaşık 3,5 kat daha hızlı, sonuçlar aynı.",
-      "Dilimleme ekranı model kontrolünün ilerlemesini yüzde olarak gösterir.",
-      "Hata düzeltmesi: büyük modellerde kontrol bitmeden ekranın ana sayfaya dönmesi ve makinenin hazır görünmesi düzeltildi."
+      "Hata düzeltmesi: ayarlar sunucudan değiştirildiğinde Yönetici (Admin) ekranı artık güncel değerleri gösteriyor (LED gücü, plaka X, Z max, bekleme süresi, STL desteği). Değerler daha önce de uygulanıyordu, yalnızca ekranda eskileri görünüyordu.",
+      "Hata düzeltmesi: Yönetici ekranındaki LED düğmelerinin resimleri yeniden görünüyor; kalibrasyon ve prob maskesi LED önizlemesi tekrar projektörde gösteriliyor."
     ],
     "en": [
-      "Faster model check: the island check after slicing is about 3.5x faster, with the same results.",
-      "The slicing screen shows the progress of the model check as a percentage.",
-      "Bug fix: on large models the screen no longer returns to Home, and the machine no longer shows as ready, before the check has finished."
+      "Bug fix: after a settings change from the server, the Admin screen now shows the current values (LED power, plate X, Z max, suspend time, STL support). The values were already applied; only the screen showed the old ones.",
+      "Bug fix: the LED buttons on the Admin screen show their images again, and the calibration and probe mask LED preview is projected again."
     ]
   },
-  "signature": "nwd6Pxtkov7R9H1i6iVOUJMpI/iSrZIYiOLLDAyATISp1gODEvcm+VDMbtbFRFv0uPv7ang1Rx/D+Y3h4XvAAw=="
+  "signature": "iZd2grOfjT4fCKvzflGYgnPyhZHyG1lm/X2pLL/FoCq9J/Qg7i/e3WEEWL149DDCD4EgqBHpLponn58fQX3sDw=="
 }
