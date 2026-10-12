@@ -1,21 +1,23 @@
 {
-  "issued_at": "2026-10-10T17:04:27Z",
-  "version": "4.3.3",
+  "issued_at": "2026-10-12T13:07:41Z",
+  "version": "4.3.4",
   "channel": "beta",
-  "released_at": "2026-10-10",
-  "file": "MegaPlatform-v4.3.3",
-  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.3.3/MegaPlatform-v4.3.3",
-  "sha256": "af7427384df69c7f511c7aa7dade33a2442c7e4f55f348a21942d2b0aa537fd1",
-  "size": 151941288,
+  "released_at": "2026-10-12",
+  "file": "MegaPlatform-v4.3.4",
+  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.3.4/MegaPlatform-v4.3.4",
+  "sha256": "ae30e0df48513d4c5f098623be1110e76c6e0666332c51c18f807456477aefc6",
+  "size": 151942600,
   "notes": {
     "tr": [
-      "Arayüz düzeltmesi: güncelleme penceresindeki “Uygulamayı yeniden başlat” düğmesi artık taşmıyor.",
-      "Açılış düzeltmesi: uygulama, reçine sıcaklığını gerçek değeriyle göstererek açılır (önceden ilk saniye 2.0 görünebiliyordu)."
+      "Model kontrolü hızlandı: dilimlemeden sonraki ada (island) kontrolü yaklaşık 3,5 kat daha hızlı, sonuçlar aynı.",
+      "Dilimleme ekranı model kontrolünün ilerlemesini yüzde olarak gösterir.",
+      "Hata düzeltmesi: büyük modellerde kontrol bitmeden ekranın ana sayfaya dönmesi ve makinenin hazır görünmesi düzeltildi."
     ],
     "en": [
-      "Interface fix: the “Restart the app” button in the update window no longer overflows.",
-      "Start-up fix: the app opens showing the real resin temperature (it could show 2.0 for the first second)."
+      "Faster model check: the island check after slicing is about 3.5x faster, with the same results.",
+      "The slicing screen shows the progress of the model check as a percentage.",
+      "Bug fix: on large models the screen no longer returns to Home, and the machine no longer shows as ready, before the check has finished."
     ]
   },
-  "signature": "91YatNhEvubtdr7zCgYx24+Asj1xw9rL178A6h3LjU2R3RMegD7v5OMbp1lGeQC+ti4fklNWZncpxtTpOg1JCw=="
+  "signature": "4DcjK1uTOjE+vGTrL+fy+tN9azQh0fR2e3vMjyMrkaU9I0aHMbyR2nIcSOVu9E+n/EbIujzL3y4Qo8su74KqDw=="
 }
