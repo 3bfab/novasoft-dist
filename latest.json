@@ -1,21 +1,19 @@
 {
-  "issued_at": "2026-10-12T13:50:37Z",
-  "version": "4.3.5",
+  "issued_at": "2026-10-12T18:23:45Z",
+  "version": "4.3.6",
   "channel": "main",
   "released_at": "2026-10-12",
-  "file": "MegaPlatform-v4.3.5",
-  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.3.5/MegaPlatform-v4.3.5",
-  "sha256": "7fb55285e48b52119f9b23e2e75ce24184cb26c0b030ed800badce6a7a9a3121",
-  "size": 152381784,
+  "file": "MegaPlatform-v4.3.6",
+  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.3.6/MegaPlatform-v4.3.6",
+  "sha256": "439d5fd21b76d8c5e15eb512d8a98e1074d4bd204d836a09bd7fc26dd6792cc4",
+  "size": 152401648,
   "notes": {
     "tr": [
-      "Hata düzeltmesi: ayarlar sunucudan değiştirildiğinde Yönetici (Admin) ekranı artık güncel değerleri gösteriyor (LED gücü, plaka X, Z max, bekleme süresi, STL desteği). Değerler daha önce de uygulanıyordu, yalnızca ekranda eskileri görünüyordu.",
-      "Hata düzeltmesi: Yönetici ekranındaki LED düğmelerinin resimleri yeniden görünüyor; kalibrasyon ve prob maskesi LED önizlemesi tekrar projektörde gösteriliyor."
+      "Yazıcı kayıt (log) yapısı güncellendi: baskılar ve olası sorunlar artık daha ayrıntılı ve daha kolay incelenecek şekilde kaydediliyor."
     ],
     "en": [
-      "Bug fix: after a settings change from the server, the Admin screen now shows the current values (LED power, plate X, Z max, suspend time, STL support). The values were already applied; only the screen showed the old ones.",
-      "Bug fix: the LED buttons on the Admin screen show their images again, and the calibration and probe mask LED preview is projected again."
+      "Printer log updated: prints and possible problems are now recorded in more detail and are easier to review."
     ]
   },
-  "signature": "iZd2grOfjT4fCKvzflGYgnPyhZHyG1lm/X2pLL/FoCq9J/Qg7i/e3WEEWL149DDCD4EgqBHpLponn58fQX3sDw=="
+  "signature": "ORUqTtafUnv2Ox9no7wKxDERH7NstlnsZT4lFVxsrByQ0Zc7KK3XQS0rJLyd/hIhlxA+x1pUYRApfVo3j9LuAg=="
 }
