@@ -1,21 +1,19 @@
 {
-  "issued_at": "2026-10-14T08:15:06Z",
-  "version": "4.4.0",
+  "issued_at": "2026-10-14T13:27:10Z",
+  "version": "4.4.1",
   "channel": "beta",
   "released_at": "2026-10-14",
-  "file": "MegaPlatform-v4.4.0",
-  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.4.0/MegaPlatform-v4.4.0",
-  "sha256": "219f4343b8949231098806a15e919ee8a4ab705262806167d1b41e020992793d",
-  "size": 152428744,
+  "file": "MegaPlatform-v4.4.1",
+  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.4.1/MegaPlatform-v4.4.1",
+  "sha256": "8b84ae543a118dc8dff893113721330da36a43d2fc491ad18492da1090e8ab67",
+  "size": 152428792,
   "notes": {
     "tr": [
-      "Yeni: QR ile giriş. Giriş ekranında e-posta ve şifreye ek olarak QR kodla giriş yapabilirsiniz; ekrandaki kodu NovaHub mobil uygulamasıyla okutmanız yeterli.",
-      "Hata düzeltmesi: büyük modellerde dilimleme sonrası model kontrolü uzun sürdüğünde sağlam modelin hatalı (FAULTY) işaretlenmesi ve dilimleme ekranında takılı kalma düzeltildi. Kontrol uzun sürerse ekran ana sayfaya döner ve kontrolün arka planda sürdüğü bildirilir."
+      "KVKK aydınlatma metnindeki başvuru adresi güncellendi."
     ],
     "en": [
-      "New: QR login. On the login screen you can now sign in with a QR code in addition to e-mail and password; just scan the code on the screen with the NovaHub mobile app.",
-      "Bug fix: on large models, a slow model check after slicing no longer marks a good model as FAULTY or leaves the slicing screen stuck. If the check takes long, the screen returns Home and tells you it continues in the background."
+      "The application address in the Turkish KVKK (data protection) consent text was updated."
     ]
   },
-  "signature": "NsvoobPzUjNYJ40efus+tOJwKvUFMrPIlT4AGZFSHlf39vWIwuKaVZDraDUnqUAxkW8lK5qGrvKrRR1W0MJdBw=="
+  "signature": "AKktq2qDYGNJgMD3uRCvAfbaoNxthpN8wTUUCLUemLItL/wAHViLNJMipXJTm5+slT7I1Mg8r8eXWWXtKjsrBw=="
 }
