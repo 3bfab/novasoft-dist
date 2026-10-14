@@ -1,19 +1,21 @@
 {
-  "issued_at": "2026-10-12T18:22:58Z",
-  "version": "4.3.6",
+  "issued_at": "2026-10-14T08:15:06Z",
+  "version": "4.4.0",
   "channel": "beta",
-  "released_at": "2026-10-12",
-  "file": "MegaPlatform-v4.3.6",
-  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.3.6/MegaPlatform-v4.3.6",
-  "sha256": "439d5fd21b76d8c5e15eb512d8a98e1074d4bd204d836a09bd7fc26dd6792cc4",
-  "size": 152401648,
+  "released_at": "2026-10-14",
+  "file": "MegaPlatform-v4.4.0",
+  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.4.0/MegaPlatform-v4.4.0",
+  "sha256": "219f4343b8949231098806a15e919ee8a4ab705262806167d1b41e020992793d",
+  "size": 152428744,
   "notes": {
     "tr": [
-      "Yazıcı kayıt (log) yapısı güncellendi: baskılar ve olası sorunlar artık daha ayrıntılı ve daha kolay incelenecek şekilde kaydediliyor."
+      "Yeni: QR ile giriş. Giriş ekranında e-posta ve şifreye ek olarak QR kodla giriş yapabilirsiniz; ekrandaki kodu NovaHub mobil uygulamasıyla okutmanız yeterli.",
+      "Hata düzeltmesi: büyük modellerde dilimleme sonrası model kontrolü uzun sürdüğünde sağlam modelin hatalı (FAULTY) işaretlenmesi ve dilimleme ekranında takılı kalma düzeltildi. Kontrol uzun sürerse ekran ana sayfaya döner ve kontrolün arka planda sürdüğü bildirilir."
     ],
     "en": [
-      "Printer log updated: prints and possible problems are now recorded in more detail and are easier to review."
+      "New: QR login. On the login screen you can now sign in with a QR code in addition to e-mail and password; just scan the code on the screen with the NovaHub mobile app.",
+      "Bug fix: on large models, a slow model check after slicing no longer marks a good model as FAULTY or leaves the slicing screen stuck. If the check takes long, the screen returns Home and tells you it continues in the background."
     ]
   },
-  "signature": "U60orKwvOMJBMFHwAM6R0k/N1+OKhno5zm8IJiKd4qTgJzukz2MxGKR7H9C+pbpnLIlkvZ/8OIp0i6JdJ2xNAA=="
+  "signature": "NsvoobPzUjNYJ40efus+tOJwKvUFMrPIlT4AGZFSHlf39vWIwuKaVZDraDUnqUAxkW8lK5qGrvKrRR1W0MJdBw=="
 }
