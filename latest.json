@@ -1,19 +1,19 @@
 {
-  "issued_at": "2026-10-12T18:23:45Z",
-  "version": "4.3.6",
+  "issued_at": "2026-10-14T13:28:05Z",
+  "version": "4.4.1",
   "channel": "main",
-  "released_at": "2026-10-12",
-  "file": "MegaPlatform-v4.3.6",
-  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.3.6/MegaPlatform-v4.3.6",
-  "sha256": "439d5fd21b76d8c5e15eb512d8a98e1074d4bd204d836a09bd7fc26dd6792cc4",
-  "size": 152401648,
+  "released_at": "2026-10-14",
+  "file": "MegaPlatform-v4.4.1",
+  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.4.1/MegaPlatform-v4.4.1",
+  "sha256": "8b84ae543a118dc8dff893113721330da36a43d2fc491ad18492da1090e8ab67",
+  "size": 152428792,
   "notes": {
     "tr": [
-      "Yazıcı kayıt (log) yapısı güncellendi: baskılar ve olası sorunlar artık daha ayrıntılı ve daha kolay incelenecek şekilde kaydediliyor."
+      "KVKK aydınlatma metnindeki başvuru adresi güncellendi."
     ],
     "en": [
-      "Printer log updated: prints and possible problems are now recorded in more detail and are easier to review."
+      "The application address in the Turkish KVKK (data protection) consent text was updated."
     ]
   },
-  "signature": "ORUqTtafUnv2Ox9no7wKxDERH7NstlnsZT4lFVxsrByQ0Zc7KK3XQS0rJLyd/hIhlxA+x1pUYRApfVo3j9LuAg=="
+  "signature": "H2mGHfr0vWPEg+xjTNoulCvKf3qapql7QV4VGLkYL6Oln1huVgsNlrjFCiFpHnyqXcaNS7JeVDElBCJ0RoNvAw=="
 }
