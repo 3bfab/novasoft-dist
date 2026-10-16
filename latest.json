@@ -1,19 +1,19 @@
 {
-  "issued_at": "2026-10-16T07:00:06Z",
-  "version": "4.4.2",
+  "issued_at": "2026-10-16T12:40:18Z",
+  "version": "4.4.3",
   "channel": "beta",
   "released_at": "2026-10-16",
-  "file": "MegaPlatform-v4.4.2",
-  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.4.2/MegaPlatform-v4.4.2",
-  "sha256": "0b2d7cb80c912c4feda10d37c75f3da98c5e8d83377503991ae2abe7b94678c3",
-  "size": 152430336,
+  "file": "MegaPlatform-v4.4.3",
+  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.4.3/MegaPlatform-v4.4.3",
+  "sha256": "e39de76a1be75a68d146c239658291e6c526ce237bb719c45a44a46a565d6c3a",
+  "size": 152431216,
   "notes": {
     "tr": [
-      "Yeni: Çıkış yap. Bilgi ekranında hesap e-postasının yanındaki butonla oturumu kapatıp giriş ekranına dönebilirsiniz."
+      "Hata düzeltmesi: QR ile girişte Bilgi ekranında hesap (e-posta) görünmüyordu; artık görünüyor."
     ],
     "en": [
-      "New: Logout. The button next to the account e-mail on the Info screen signs you out and returns to the login screen."
+      "Bug fix: after a QR login the Info screen showed no account (e-mail); it now does."
     ]
   },
-  "signature": "m3YdDxvzjLZ90uNSEEEjPBbHliXDsn2hC36L6C5hnBipCmhRV9JQt54Or+4PHtvjvL+WLWNPNrbV1P9szaPHDw=="
+  "signature": "8ZLzO3iRC1pe+nJHF6e7JSQdgetX5dn4l/El/O2yqN6yLYJiRtcFfjANOXer2u98OP5oVPn0CKy/39Sh14wYDA=="
 }
