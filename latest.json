@@ -1,19 +1,19 @@
 {
-  "issued_at": "2026-10-14T13:27:10Z",
-  "version": "4.4.1",
+  "issued_at": "2026-10-16T07:00:06Z",
+  "version": "4.4.2",
   "channel": "beta",
-  "released_at": "2026-10-14",
-  "file": "MegaPlatform-v4.4.1",
-  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.4.1/MegaPlatform-v4.4.1",
-  "sha256": "8b84ae543a118dc8dff893113721330da36a43d2fc491ad18492da1090e8ab67",
-  "size": 152428792,
+  "released_at": "2026-10-16",
+  "file": "MegaPlatform-v4.4.2",
+  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.4.2/MegaPlatform-v4.4.2",
+  "sha256": "0b2d7cb80c912c4feda10d37c75f3da98c5e8d83377503991ae2abe7b94678c3",
+  "size": 152430336,
   "notes": {
     "tr": [
-      "KVKK aydınlatma metnindeki başvuru adresi güncellendi."
+      "Yeni: Çıkış yap. Bilgi ekranında hesap e-postasının yanındaki butonla oturumu kapatıp giriş ekranına dönebilirsiniz."
     ],
     "en": [
-      "The application address in the Turkish KVKK (data protection) consent text was updated."
+      "New: Logout. The button next to the account e-mail on the Info screen signs you out and returns to the login screen."
     ]
   },
-  "signature": "AKktq2qDYGNJgMD3uRCvAfbaoNxthpN8wTUUCLUemLItL/wAHViLNJMipXJTm5+slT7I1Mg8r8eXWWXtKjsrBw=="
+  "signature": "m3YdDxvzjLZ90uNSEEEjPBbHliXDsn2hC36L6C5hnBipCmhRV9JQt54Or+4PHtvjvL+WLWNPNrbV1P9szaPHDw=="
 }
