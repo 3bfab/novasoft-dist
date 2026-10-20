@@ -1,19 +1,19 @@
 {
-  "issued_at": "2026-10-14T13:28:05Z",
-  "version": "4.4.1",
+  "issued_at": "2026-10-20T06:50:43Z",
+  "version": "4.4.4",
   "channel": "main",
-  "released_at": "2026-10-14",
-  "file": "MegaPlatform-v4.4.1",
-  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.4.1/MegaPlatform-v4.4.1",
-  "sha256": "8b84ae543a118dc8dff893113721330da36a43d2fc491ad18492da1090e8ab67",
-  "size": 152428792,
+  "released_at": "2026-10-20",
+  "file": "MegaPlatform-v4.4.4",
+  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.4.4/MegaPlatform-v4.4.4",
+  "sha256": "405e82094da48c06854ce70f8c90438c55ff9cc6af72966147909f5d26ceaf01",
+  "size": 152432344,
   "notes": {
     "tr": [
-      "KVKK aydınlatma metnindeki başvuru adresi güncellendi."
+      "Hata düzeltmesi: Kurtarma (Recovery) moduna geçilemiyor ve Update settings yapın uyarısı veriliyordu. Artık gönderilmemiş baskı kayıtları otomatik gönderilip kurtarma devam ediyor; internet yoksa nedeni açıkça belirtiliyor. Update Settings de bekleyen baskı kayıtlarını yeniden gönderiyor."
     ],
     "en": [
-      "The application address in the Turkish KVKK (data protection) consent text was updated."
+      "Bug fix: Recovery mode could not be entered and kept asking for Update Settings. The unsent print logs are now sent automatically and recovery goes on; without internet the reason is stated. Update Settings also sends the pending print logs again."
     ]
   },
-  "signature": "H2mGHfr0vWPEg+xjTNoulCvKf3qapql7QV4VGLkYL6Oln1huVgsNlrjFCiFpHnyqXcaNS7JeVDElBCJ0RoNvAw=="
+  "signature": "Zo48Vl9vYo1kgJRFZ1npeCDlLk1uNcQ0ZrbmpFlZuUpim1yJqLZJrdP7KYmOVQs+J8tEoGe0y6hyDgnmE3K8Bg=="
 }
