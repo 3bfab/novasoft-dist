@@ -1,19 +1,23 @@
 {
-  "issued_at": "2026-10-20T06:49:46Z",
-  "version": "4.4.4",
+  "issued_at": "2026-10-20T07:15:21Z",
+  "version": "4.4.5",
   "channel": "beta",
   "released_at": "2026-10-20",
-  "file": "MegaPlatform-v4.4.4",
-  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.4.4/MegaPlatform-v4.4.4",
-  "sha256": "405e82094da48c06854ce70f8c90438c55ff9cc6af72966147909f5d26ceaf01",
-  "size": 152432344,
+  "file": "MegaPlatform-v4.4.5",
+  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.4.5/MegaPlatform-v4.4.5",
+  "sha256": "f1ac040a877f803de8853ebc2bad4aa06f10937737027a9f5b518e9d3a8d59a6",
+  "size": 152433184,
   "notes": {
     "tr": [
-      "Hata düzeltmesi: Kurtarma (Recovery) moduna geçilemiyor ve Update settings yapın uyarısı veriliyordu. Artık gönderilmemiş baskı kayıtları otomatik gönderilip kurtarma devam ediyor; internet yoksa nedeni açıkça belirtiliyor. Update Settings de bekleyen baskı kayıtlarını yeniden gönderiyor."
+      "Hata düzeltmesi: Kurtarma (Recovery) moduna artık her durumda geçilebiliyor; internet yokken de engellenmiyor. Gönderilmemiş baskı kayıtları saklanıyor ve internet gelince otomatik gönderiliyor.",
+      "Düzeltme: Giriş ekranındaki Recovery artık makineye özel önek bilinmese de kayıtlı makinede çalışıyor.",
+      "Hata düzeltmesi: Arkada açılan terminale klavyeden yazarken uygulama kendini öne çıkarıp odağı geri alıyordu; artık terminal odaktayken uygulama karışmıyor."
     ],
     "en": [
-      "Bug fix: Recovery mode could not be entered and kept asking for Update Settings. The unsent print logs are now sent automatically and recovery goes on; without internet the reason is stated. Update Settings also sends the pending print logs again."
+      "Bug fix: Recovery mode can now always be entered, also without internet. Unsent print logs are kept and sent automatically once the internet is back.",
+      "Fix: Recovery on the login screen now also works on a registered machine without knowing the machine's own prefix.",
+      "Bug fix: while typing into a terminal opened behind the app, the app raised itself and took the keyboard focus back; it now leaves a focused terminal alone."
     ]
   },
-  "signature": "98qutUFweRBMfv8Cvdcoe2EI+zDuDYwhA03CH+2Ls8pxIsbSe+iW3XwB5YbFTJr9d8H/C2esAYdQRn3kPWRfAw=="
+  "signature": "KwRR2kl3Um6IJtfzq815DQUhlWSyE79ltAvpTtZSQih/kXso8cFVS1g7W+YvD9fJUoymKnlOku+5PAgqrRYyCQ=="
 }
