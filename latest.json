@@ -1,19 +1,19 @@
 {
-  "issued_at": "2026-10-16T12:40:18Z",
-  "version": "4.4.3",
+  "issued_at": "2026-10-20T06:49:46Z",
+  "version": "4.4.4",
   "channel": "beta",
-  "released_at": "2026-10-16",
-  "file": "MegaPlatform-v4.4.3",
-  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.4.3/MegaPlatform-v4.4.3",
-  "sha256": "e39de76a1be75a68d146c239658291e6c526ce237bb719c45a44a46a565d6c3a",
-  "size": 152431216,
+  "released_at": "2026-10-20",
+  "file": "MegaPlatform-v4.4.4",
+  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.4.4/MegaPlatform-v4.4.4",
+  "sha256": "405e82094da48c06854ce70f8c90438c55ff9cc6af72966147909f5d26ceaf01",
+  "size": 152432344,
   "notes": {
     "tr": [
-      "Hata düzeltmesi: QR ile girişte Bilgi ekranında hesap (e-posta) görünmüyordu; artık görünüyor."
+      "Hata düzeltmesi: Kurtarma (Recovery) moduna geçilemiyor ve Update settings yapın uyarısı veriliyordu. Artık gönderilmemiş baskı kayıtları otomatik gönderilip kurtarma devam ediyor; internet yoksa nedeni açıkça belirtiliyor. Update Settings de bekleyen baskı kayıtlarını yeniden gönderiyor."
     ],
     "en": [
-      "Bug fix: after a QR login the Info screen showed no account (e-mail); it now does."
+      "Bug fix: Recovery mode could not be entered and kept asking for Update Settings. The unsent print logs are now sent automatically and recovery goes on; without internet the reason is stated. Update Settings also sends the pending print logs again."
     ]
   },
-  "signature": "8ZLzO3iRC1pe+nJHF6e7JSQdgetX5dn4l/El/O2yqN6yLYJiRtcFfjANOXer2u98OP5oVPn0CKy/39Sh14wYDA=="
+  "signature": "98qutUFweRBMfv8Cvdcoe2EI+zDuDYwhA03CH+2Ls8pxIsbSe+iW3XwB5YbFTJr9d8H/C2esAYdQRn3kPWRfAw=="
 }
