@@ -1,23 +1,19 @@
 {
-  "issued_at": "2026-10-20T07:15:21Z",
-  "version": "4.4.5",
+  "issued_at": "2026-10-23T08:46:55Z",
+  "version": "4.4.6",
   "channel": "beta",
-  "released_at": "2026-10-20",
-  "file": "MegaPlatform-v4.4.5",
-  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.4.5/MegaPlatform-v4.4.5",
-  "sha256": "f1ac040a877f803de8853ebc2bad4aa06f10937737027a9f5b518e9d3a8d59a6",
-  "size": 152433184,
+  "released_at": "2026-10-23",
+  "file": "MegaPlatform-v4.4.6",
+  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.4.6/MegaPlatform-v4.4.6",
+  "sha256": "6c0476370e096fc42a50099b3478703b27e1806f2af53dcb1cb2fa10a56b6d81",
+  "size": 152079248,
   "notes": {
     "tr": [
-      "Hata düzeltmesi: Kurtarma (Recovery) moduna artık her durumda geçilebiliyor; internet yokken de engellenmiyor. Gönderilmemiş baskı kayıtları saklanıyor ve internet gelince otomatik gönderiliyor.",
-      "Düzeltme: Giriş ekranındaki Recovery artık makineye özel önek bilinmese de kayıtlı makinede çalışıyor.",
-      "Hata düzeltmesi: Arkada açılan terminale klavyeden yazarken uygulama kendini öne çıkarıp odağı geri alıyordu; artık terminal odaktayken uygulama karışmıyor."
+      "Hata düzeltmesi: Yazılım eski sistemli makinelerde (ör. Udoo X86) açılmıyordu (glibc hatası); artık bu makinelerde de açılıyor."
     ],
     "en": [
-      "Bug fix: Recovery mode can now always be entered, also without internet. Unsent print logs are kept and sent automatically once the internet is back.",
-      "Fix: Recovery on the login screen now also works on a registered machine without knowing the machine's own prefix.",
-      "Bug fix: while typing into a terminal opened behind the app, the app raised itself and took the keyboard focus back; it now leaves a focused terminal alone."
+      "Bug fix: the software did not start on machines with older systems (e.g. Udoo X86, a glibc error); it now starts on them too."
     ]
   },
-  "signature": "KwRR2kl3Um6IJtfzq815DQUhlWSyE79ltAvpTtZSQih/kXso8cFVS1g7W+YvD9fJUoymKnlOku+5PAgqrRYyCQ=="
+  "signature": "XE7wDSMEWkbs0WGk9awL3BZC3p0f5Me1HQst0zXEEZwVwQqavJqDKeHROENlXXOB9DMvSElYkyseqJLoTyqPBQ=="
 }
