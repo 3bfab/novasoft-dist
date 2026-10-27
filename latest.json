@@ -1,19 +1,21 @@
 {
-  "issued_at": "2026-10-23T08:46:55Z",
-  "version": "4.4.6",
+  "issued_at": "2026-10-27T10:52:38Z",
+  "version": "4.4.7",
   "channel": "beta",
-  "released_at": "2026-10-23",
-  "file": "MegaPlatform-v4.4.6",
-  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.4.6/MegaPlatform-v4.4.6",
-  "sha256": "6c0476370e096fc42a50099b3478703b27e1806f2af53dcb1cb2fa10a56b6d81",
-  "size": 152079248,
+  "released_at": "2026-10-27",
+  "file": "MegaPlatform-v4.4.7",
+  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.4.7/MegaPlatform-v4.4.7",
+  "sha256": "9d1991eac3dea28542e815df428ddd7f3a2ada94df344e58fcb17947bf15bd86",
+  "size": 152080728,
   "notes": {
     "tr": [
-      "Hata düzeltmesi: Yazılım eski sistemli makinelerde (ör. Udoo X86) açılmıyordu (glibc hatası); artık bu makinelerde de açılıyor."
+      "Hata düzeltmesi: İlk girişten hemen sonra uygulamanın birkaç saniye donması giderildi; kart cevap vermese de açılış artık takılmıyor.",
+      "Hata düzeltmesi: Tank temizleme (Clean Tank) yeni PC ya da kartın ilk açılışında çalışmıyordu; artık kartın onayı bekleniyor, ışık yanmazsa hata gösteriliyor ve ışık tam akımla (1023) çalışıyor."
     ],
     "en": [
-      "Bug fix: the software did not start on machines with older systems (e.g. Udoo X86, a glibc error); it now starts on them too."
+      "Bug fix: the app no longer freezes for a few seconds right after the first sign-in; start-up does not hang even if the board does not answer.",
+      "Bug fix: Clean Tank did not work on the first start of a new PC or board; it now waits for the board's acknowledgement, shows an error if the light does not turn on, and runs the light at full current (1023)."
     ]
   },
-  "signature": "XE7wDSMEWkbs0WGk9awL3BZC3p0f5Me1HQst0zXEEZwVwQqavJqDKeHROENlXXOB9DMvSElYkyseqJLoTyqPBQ=="
+  "signature": "i6AtRC+bv9eLwXUiWBA1Opweg+dh6WnJe+aqoU7b0udg1S2uHbXaw/Yrd4Y7VONFWn79sUIRSNxtN/EUbSVWBw=="
 }
