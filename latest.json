@@ -1,21 +1,19 @@
 {
-  "issued_at": "2026-10-27T10:52:38Z",
-  "version": "4.4.7",
+  "issued_at": "2026-11-02T13:21:47Z",
+  "version": "4.4.8",
   "channel": "beta",
-  "released_at": "2026-10-27",
-  "file": "MegaPlatform-v4.4.7",
-  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.4.7/MegaPlatform-v4.4.7",
-  "sha256": "9d1991eac3dea28542e815df428ddd7f3a2ada94df344e58fcb17947bf15bd86",
-  "size": 152080728,
+  "released_at": "2026-11-02",
+  "file": "MegaPlatform-v4.4.8",
+  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.4.8/MegaPlatform-v4.4.8",
+  "sha256": "6e8aa1768ff4bc05d688dd3653f38f4b2832cb07856a8ea450f0f355f0317f5a",
+  "size": 152080912,
   "notes": {
     "tr": [
-      "Hata düzeltmesi: İlk girişten hemen sonra uygulamanın birkaç saniye donması giderildi; kart cevap vermese de açılış artık takılmıyor.",
-      "Hata düzeltmesi: Tank temizleme (Clean Tank) yeni PC ya da kartın ilk açılışında çalışmıyordu; artık kartın onayı bekleniyor, ışık yanmazsa hata gösteriliyor ve ışık tam akımla (1023) çalışıyor."
+      "Hata düzeltmesi: Oturum düştükten sonra açılan giriş ekranında, klavye açıkken QR ile giriş seçeneği görünmüyordu; artık klavye açıkken de QR butonu var."
     ],
     "en": [
-      "Bug fix: the app no longer freezes for a few seconds right after the first sign-in; start-up does not hang even if the board does not answer.",
-      "Bug fix: Clean Tank did not work on the first start of a new PC or board; it now waits for the board's acknowledgement, shows an error if the light does not turn on, and runs the light at full current (1023)."
+      "Bug fix: on the login screen shown after the session was lost, the QR login option was missing while the keyboard was open; the QR button is now there with the keyboard open too."
     ]
   },
-  "signature": "i6AtRC+bv9eLwXUiWBA1Opweg+dh6WnJe+aqoU7b0udg1S2uHbXaw/Yrd4Y7VONFWn79sUIRSNxtN/EUbSVWBw=="
+  "signature": "fQz3CLbHENQcwQJNRwke8gM8gBfbiO9q3u7ZmUzJuFu/EtyXZrWDu3rP1ekNxBIu7ZEmh2SVG5ZKTNTDCNnFDA=="
 }
