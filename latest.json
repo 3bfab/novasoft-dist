@@ -1,19 +1,33 @@
 {
-  "issued_at": "2026-11-02T13:21:47Z",
-  "version": "4.4.8",
+  "issued_at": "2026-11-07T13:36:52Z",
+  "version": "4.5.1",
   "channel": "beta",
-  "released_at": "2026-11-02",
-  "file": "MegaPlatform-v4.4.8",
-  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.4.8/MegaPlatform-v4.4.8",
-  "sha256": "6e8aa1768ff4bc05d688dd3653f38f4b2832cb07856a8ea450f0f355f0317f5a",
-  "size": 152080912,
+  "released_at": "2026-11-07",
+  "file": "MegaPlatform-v4.5.1",
+  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.5.1/MegaPlatform-v4.5.1",
+  "sha256": "2f5c5f50d992b359a5472057d16a4cc337e5589517c40973ac04185e661ce458",
+  "size": 152089360,
   "notes": {
     "tr": [
-      "Hata düzeltmesi: Oturum düştükten sonra açılan giriş ekranında, klavye açıkken QR ile giriş seçeneği görünmüyordu; artık klavye açıkken de QR butonu var."
+      "Düzeltme: DentaFab Slicer'dan gönderilen iptal artık baskıyı gerçekten durduruyor.",
+      "Düzeltme: Isınma sırasında veya \"Baskı başarılı mı?\" sorusu açıkken ikinci bir baskı başlatılamıyor; baskı sonu sorusu uzaktan bir istekle ekrandan kaybolmuyor.",
+      "Düzeltme: İptal edilen baskıda fazladan bir katman pozlanmıyor.",
+      "Düzeltme: Tank temizlemede bir komut gecikirse makine uzun süre beklemiyor; Admin'deki LED önizlemesinde lamba her zaman ekranda görünen durumda kalıyor.",
+      "Düzeltme: Kalibrasyonda kaydedilmeden bırakılan Z-offset değeri geri alınıyor ve sonraki baskıya taşınmıyor.",
+      "Düzeltme: Güncelleme, makine yeniden başlatılana kadar eski programı yerinde bırakıyor; güncelleme sürerken makine kapatılamıyor ve uzaktan iş alınmıyor.",
+      "Düzeltme: Giriş ekranında donma, QR ile girişte ekrandan çıkınca arka planda giriş yapılması, oturum düşünce giriş ekranına dönülmemesi ve çıkışta admin kilidinin açık kalması giderildi.",
+      "İyileştirme: Wi-Fi ve USB işlemleri sırasında gereksiz işlemci kullanımı kaldırıldı."
     ],
     "en": [
-      "Bug fix: on the login screen shown after the session was lost, the QR login option was missing while the keyboard was open; the QR button is now there with the keyboard open too."
+      "Fix: a cancel sent from DentaFab Slicer now really stops the print.",
+      "Fix: a second print can no longer start while heating or while the \"Is printing successful?\" question is open, and a remote request no longer removes that question from the screen.",
+      "Fix: a cancelled print no longer exposes one extra layer.",
+      "Fix: Clean Tank no longer waits for a long time when a command is late; the Admin LED preview always leaves the lamp in the state shown on screen.",
+      "Fix: a Z-offset left unsaved in Calibration is reverted and no longer carried into the next print.",
+      "Fix: an update keeps the old program in place until the machine restarts; while an update runs the machine cannot be shut down and takes no remote jobs.",
+      "Fix: the login screen no longer freezes, leaving the QR screen no longer logs in in the background, an expired session returns to the login screen, and signing out locks Admin again.",
+      "Improvement: Wi-Fi and USB operations no longer waste processor time."
     ]
   },
-  "signature": "fQz3CLbHENQcwQJNRwke8gM8gBfbiO9q3u7ZmUzJuFu/EtyXZrWDu3rP1ekNxBIu7ZEmh2SVG5ZKTNTDCNnFDA=="
+  "signature": "YrMH9h+YKyAl/Mq7upYx+LYkA02lWoklgdH3004IuaTBBvxF1yRBYpp4FqgqUyvyAh2TXLQxrsWP1HXcX/UnDQ=="
 }
