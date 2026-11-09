@@ -1,33 +1,19 @@
 {
-  "issued_at": "2026-11-07T13:36:52Z",
-  "version": "4.5.1",
+  "issued_at": "2026-11-09T07:05:04Z",
+  "version": "4.5.2",
   "channel": "beta",
-  "released_at": "2026-11-07",
-  "file": "MegaPlatform-v4.5.1",
-  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.5.1/MegaPlatform-v4.5.1",
-  "sha256": "2f5c5f50d992b359a5472057d16a4cc337e5589517c40973ac04185e661ce458",
-  "size": 152089360,
+  "released_at": "2026-11-09",
+  "file": "MegaPlatform-v4.5.2",
+  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.5.2/MegaPlatform-v4.5.2",
+  "sha256": "cf706e304c1cd2bef6117e243961cf1ef8c64bcb335ba379e9166c16f10c8037",
+  "size": 152089192,
   "notes": {
     "tr": [
-      "Düzeltme: DentaFab Slicer'dan gönderilen iptal artık baskıyı gerçekten durduruyor.",
-      "Düzeltme: Isınma sırasında veya \"Baskı başarılı mı?\" sorusu açıkken ikinci bir baskı başlatılamıyor; baskı sonu sorusu uzaktan bir istekle ekrandan kaybolmuyor.",
-      "Düzeltme: İptal edilen baskıda fazladan bir katman pozlanmıyor.",
-      "Düzeltme: Tank temizlemede bir komut gecikirse makine uzun süre beklemiyor; Admin'deki LED önizlemesinde lamba her zaman ekranda görünen durumda kalıyor.",
-      "Düzeltme: Kalibrasyonda kaydedilmeden bırakılan Z-offset değeri geri alınıyor ve sonraki baskıya taşınmıyor.",
-      "Düzeltme: Güncelleme, makine yeniden başlatılana kadar eski programı yerinde bırakıyor; güncelleme sürerken makine kapatılamıyor ve uzaktan iş alınmıyor.",
-      "Düzeltme: Giriş ekranında donma, QR ile girişte ekrandan çıkınca arka planda giriş yapılması, oturum düşünce giriş ekranına dönülmemesi ve çıkışta admin kilidinin açık kalması giderildi.",
-      "İyileştirme: Wi-Fi ve USB işlemleri sırasında gereksiz işlemci kullanımı kaldırıldı."
+      "Değişiklik: Giriş başlangıç ekranındaki \"DentaFab\" yazısı kaldırıldı; ekranda yalnızca devam butonu kalıyor."
     ],
     "en": [
-      "Fix: a cancel sent from DentaFab Slicer now really stops the print.",
-      "Fix: a second print can no longer start while heating or while the \"Is printing successful?\" question is open, and a remote request no longer removes that question from the screen.",
-      "Fix: a cancelled print no longer exposes one extra layer.",
-      "Fix: Clean Tank no longer waits for a long time when a command is late; the Admin LED preview always leaves the lamp in the state shown on screen.",
-      "Fix: a Z-offset left unsaved in Calibration is reverted and no longer carried into the next print.",
-      "Fix: an update keeps the old program in place until the machine restarts; while an update runs the machine cannot be shut down and takes no remote jobs.",
-      "Fix: the login screen no longer freezes, leaving the QR screen no longer logs in in the background, an expired session returns to the login screen, and signing out locks Admin again.",
-      "Improvement: Wi-Fi and USB operations no longer waste processor time."
+      "Change: the \"DentaFab\" text was removed from the login start screen; only the continue button is left."
     ]
   },
-  "signature": "YrMH9h+YKyAl/Mq7upYx+LYkA02lWoklgdH3004IuaTBBvxF1yRBYpp4FqgqUyvyAh2TXLQxrsWP1HXcX/UnDQ=="
+  "signature": "FSynWaKCBrDtwoGEUPsU2vacr+bEW0F9Bkb6mWLzQarp3vuAPGMhiY+r58F1alt/xEebRZxSbxeUA0b5BQ98Dg=="
 }
