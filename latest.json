@@ -1,19 +1,19 @@
 {
-  "issued_at": "2026-11-09T07:05:04Z",
-  "version": "4.5.2",
+  "issued_at": "2026-11-09T07:35:11Z",
+  "version": "4.5.3",
   "channel": "beta",
   "released_at": "2026-11-09",
-  "file": "MegaPlatform-v4.5.2",
-  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.5.2/MegaPlatform-v4.5.2",
-  "sha256": "cf706e304c1cd2bef6117e243961cf1ef8c64bcb335ba379e9166c16f10c8037",
-  "size": 152089192,
+  "file": "MegaPlatform-v4.5.3",
+  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.5.3/MegaPlatform-v4.5.3",
+  "sha256": "2c6009dc15f163a851d1f971e8d7f49a2078eba811224297341ec0629f2a253a",
+  "size": 152090208,
   "notes": {
     "tr": [
-      "Değişiklik: Giriş başlangıç ekranındaki \"DentaFab\" yazısı kaldırıldı; ekranda yalnızca devam butonu kalıyor."
+      "Değişiklik: Giriş başlangıç ekranında, devam butonunun üstünde DentaFab logosu gösteriliyor."
     ],
     "en": [
-      "Change: the \"DentaFab\" text was removed from the login start screen; only the continue button is left."
+      "Change: the login start screen shows the DentaFab logo above the continue button."
     ]
   },
-  "signature": "FSynWaKCBrDtwoGEUPsU2vacr+bEW0F9Bkb6mWLzQarp3vuAPGMhiY+r58F1alt/xEebRZxSbxeUA0b5BQ98Dg=="
+  "signature": "XwplyKqwFeNl76juEiYLGIIH9QOc/fcbhEe3E/48yfWHBI5yuQKYJHJCyOm6WjCNyo6jf81O7C70HBtgPNPGAA=="
 }
