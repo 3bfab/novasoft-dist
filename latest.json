@@ -1,5 +1,5 @@
 {
-  "issued_at": "2026-11-09T07:35:11Z",
+  "issued_at": "2026-11-09T07:38:54Z",
   "version": "4.5.3",
   "channel": "beta",
   "released_at": "2026-11-09",
@@ -15,5 +15,5 @@
       "Change: the login start screen shows the DentaFab logo above the continue button."
     ]
   },
-  "signature": "XwplyKqwFeNl76juEiYLGIIH9QOc/fcbhEe3E/48yfWHBI5yuQKYJHJCyOm6WjCNyo6jf81O7C70HBtgPNPGAA=="
+  "signature": "UnCPfs2MZAOn5giGWxKXdmMGgn4nPfRWTvhVfGCXspJyACxpfjFvyDbJb5Q726HQry59ZtEsxenm104DTsXoCQ=="
 }
