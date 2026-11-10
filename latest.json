@@ -1,23 +1,45 @@
 {
-  "issued_at": "2026-10-20T07:16:50Z",
-  "version": "4.4.5",
+  "issued_at": "2026-11-10T06:35:45Z",
+  "version": "4.5.3",
   "channel": "main",
-  "released_at": "2026-10-20",
-  "file": "MegaPlatform-v4.4.5",
-  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.4.5/MegaPlatform-v4.4.5",
-  "sha256": "f1ac040a877f803de8853ebc2bad4aa06f10937737027a9f5b518e9d3a8d59a6",
-  "size": 152433184,
+  "released_at": "2026-11-09",
+  "file": "MegaPlatform-v4.5.3",
+  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.5.3/MegaPlatform-v4.5.3",
+  "sha256": "2c6009dc15f163a851d1f971e8d7f49a2078eba811224297341ec0629f2a253a",
+  "size": 152090208,
   "notes": {
     "tr": [
-      "Hata düzeltmesi: Kurtarma (Recovery) moduna artık her durumda geçilebiliyor; internet yokken de engellenmiyor. Gönderilmemiş baskı kayıtları saklanıyor ve internet gelince otomatik gönderiliyor.",
-      "Düzeltme: Giriş ekranındaki Recovery artık makineye özel önek bilinmese de kayıtlı makinede çalışıyor.",
-      "Hata düzeltmesi: Arkada açılan terminale klavyeden yazarken uygulama kendini öne çıkarıp odağı geri alıyordu; artık terminal odaktayken uygulama karışmıyor."
+      "Değişiklik: Giriş başlangıç ekranında, devam butonunun üstünde DentaFab logosu gösteriliyor.",
+      "Düzeltme: DentaFab Slicer'dan gönderilen iptal artık baskıyı gerçekten durduruyor.",
+      "Düzeltme: Isınma sırasında veya \"Baskı başarılı mı?\" sorusu açıkken ikinci bir baskı başlatılamıyor; baskı sonu sorusu uzaktan bir istekle ekrandan kaybolmuyor.",
+      "Düzeltme: İptal edilen baskıda fazladan bir katman pozlanmıyor.",
+      "Düzeltme: Tank temizlemede bir komut gecikirse makine uzun süre beklemiyor; Admin'deki LED önizlemesinde lamba her zaman ekranda görünen durumda kalıyor.",
+      "Düzeltme: Kalibrasyonda kaydedilmeden bırakılan Z-offset değeri geri alınıyor ve sonraki baskıya taşınmıyor.",
+      "Düzeltme: Güncelleme, makine yeniden başlatılana kadar eski programı yerinde bırakıyor; güncelleme sürerken makine kapatılamıyor ve uzaktan iş alınmıyor.",
+      "Düzeltme: Giriş ekranında donma, QR ile girişte ekrandan çıkınca arka planda giriş yapılması, oturum düşünce giriş ekranına dönülmemesi ve çıkışta admin kilidinin açık kalması giderildi.",
+      "İyileştirme: Wi-Fi ve USB işlemleri sırasında gereksiz işlemci kullanımı kaldırıldı.",
+      "Yeni: Baskı bittiğinde makinedeki \"Baskı başarılı mı?\" sorusu cevaplanmadıysa DentaFab Slicer bu makineye yeni iş göndermiyor; tabla alınmadan üstüne baskı başlatılmasının önüne geçiliyor.",
+      "Hata düzeltmesi: Oturum düştükten sonra açılan giriş ekranında, klavye açıkken QR ile giriş seçeneği görünmüyordu; artık klavye açıkken de QR butonu var.",
+      "Hata düzeltmesi: İlk girişten hemen sonra uygulamanın birkaç saniye donması giderildi; kart cevap vermese de açılış artık takılmıyor.",
+      "Hata düzeltmesi: Tank temizleme (Clean Tank) yeni PC ya da kartın ilk açılışında çalışmıyordu; artık kartın onayı bekleniyor, ışık yanmazsa hata gösteriliyor ve ışık tam akımla (1023) çalışıyor.",
+      "Hata düzeltmesi: Yazılım eski sistemli makinelerde (ör. Udoo X86) açılmıyordu (glibc hatası); artık bu makinelerde de açılıyor."
     ],
     "en": [
-      "Bug fix: Recovery mode can now always be entered, also without internet. Unsent print logs are kept and sent automatically once the internet is back.",
-      "Fix: Recovery on the login screen now also works on a registered machine without knowing the machine's own prefix.",
-      "Bug fix: while typing into a terminal opened behind the app, the app raised itself and took the keyboard focus back; it now leaves a focused terminal alone."
+      "Change: the login start screen shows the DentaFab logo above the continue button.",
+      "Fix: a cancel sent from DentaFab Slicer now really stops the print.",
+      "Fix: a second print can no longer start while heating or while the \"Is printing successful?\" question is open, and a remote request no longer removes that question from the screen.",
+      "Fix: a cancelled print no longer exposes one extra layer.",
+      "Fix: Clean Tank no longer waits for a long time when a command is late; the Admin LED preview always leaves the lamp in the state shown on screen.",
+      "Fix: a Z-offset left unsaved in Calibration is reverted and no longer carried into the next print.",
+      "Fix: an update keeps the old program in place until the machine restarts; while an update runs the machine cannot be shut down and takes no remote jobs.",
+      "Fix: the login screen no longer freezes, leaving the QR screen no longer logs in in the background, an expired session returns to the login screen, and signing out locks Admin again.",
+      "Improvement: Wi-Fi and USB operations no longer waste processor time.",
+      "New: while the \"Is printing successful?\" question after a print is still unanswered on the machine, DentaFab Slicer does not send a new job to it, so a new print cannot start on top of a plate that was not removed.",
+      "Bug fix: on the login screen shown after the session was lost, the QR login option was missing while the keyboard was open; the QR button is now there with the keyboard open too.",
+      "Bug fix: the app no longer freezes for a few seconds right after the first sign-in; start-up does not hang even if the board does not answer.",
+      "Bug fix: Clean Tank did not work on the first start of a new PC or board; it now waits for the board's acknowledgement, shows an error if the light does not turn on, and runs the light at full current (1023).",
+      "Bug fix: the software did not start on machines with older systems (e.g. Udoo X86, a glibc error); it now starts on them too."
     ]
   },
-  "signature": "44pc6wzDkoWIUq5LkJB43+9HMLzqglMera6IkPxaw/POVSMcpc95AE9wxVi139nZOQAH92AIlOLdWcbdmThEAQ=="
+  "signature": "OxYClj4FMReq+xsXkt9elj64JriFs16zqPY+vbuPi/vLsCfpQpUGFs2UlUsbDG9BhvLi8fU5RhlOevrntPN0Cg=="
 }
