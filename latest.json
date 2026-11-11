@@ -1,19 +1,19 @@
 {
-  "issued_at": "2026-11-09T07:38:54Z",
-  "version": "4.5.3",
+  "issued_at": "2026-11-11T12:11:12Z",
+  "version": "4.6.0",
   "channel": "beta",
-  "released_at": "2026-11-09",
-  "file": "MegaPlatform-v4.5.3",
-  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.5.3/MegaPlatform-v4.5.3",
-  "sha256": "2c6009dc15f163a851d1f971e8d7f49a2078eba811224297341ec0629f2a253a",
-  "size": 152090208,
+  "released_at": "2026-11-11",
+  "file": "MegaPlatform-v4.6.0",
+  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.6.0/MegaPlatform-v4.6.0",
+  "sha256": "c8c2bbba98b2966a372e9782b43490c50ba7f305f7992e6fc55614cfd906ca4c",
+  "size": 152095408,
   "notes": {
     "tr": [
-      "Değişiklik: Giriş başlangıç ekranında, devam butonunun üstünde DentaFab logosu gösteriliyor."
+      "Yeni: Makine anlık durumunu (makine ve kart durumu, disk / bellek / işlemci kullanımı, açık kalma süresi; baskı sırasında katman ve kalan süre) en geç 5 saniyede bir, durum değişince hemen NovaHub'a gönderiyor. Gönderim arka planda yapılıyor; ekranı ve baskıyı bekletmiyor."
     ],
     "en": [
-      "Change: the login start screen shows the DentaFab logo above the continue button."
+      "New: the machine reports its live state to NovaHub (machine and board state, disk / memory / CPU usage, uptime; layer and remaining time while printing) at least every 5 seconds and right away when the state changes. It runs in the background and never holds up the screen or a print."
     ]
   },
-  "signature": "UnCPfs2MZAOn5giGWxKXdmMGgn4nPfRWTvhVfGCXspJyACxpfjFvyDbJb5Q726HQry59ZtEsxenm104DTsXoCQ=="
+  "signature": "b2/kH+MGAZTxIgujO8o7R2aBAu6/Cj1wLew+oBvrX/M7XTkVDEW4813Sa5c6ml8eGRBb8ExcBy189xICkIaTBA=="
 }
