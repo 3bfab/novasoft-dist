@@ -1,19 +1,23 @@
 {
-  "issued_at": "2026-11-11T12:11:12Z",
-  "version": "4.6.0",
+  "issued_at": "2026-11-25T06:57:44Z",
+  "version": "4.6.1",
   "channel": "beta",
-  "released_at": "2026-11-11",
-  "file": "MegaPlatform-v4.6.0",
-  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.6.0/MegaPlatform-v4.6.0",
-  "sha256": "c8c2bbba98b2966a372e9782b43490c50ba7f305f7992e6fc55614cfd906ca4c",
-  "size": 152095408,
+  "released_at": "2026-11-25",
+  "file": "MegaPlatform-v4.6.1",
+  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.6.1/MegaPlatform-v4.6.1",
+  "sha256": "c7d6f487434ba3f24f6ed726bfa84ddac141c8ec0bff235deab5044275d696b3",
+  "size": 152097752,
   "notes": {
     "tr": [
-      "Yeni: Makine anlık durumunu (makine ve kart durumu, disk / bellek / işlemci kullanımı, açık kalma süresi; baskı sırasında katman ve kalan süre) en geç 5 saniyede bir, durum değişince hemen NovaHub'a gönderiyor. Gönderim arka planda yapılıyor; ekranı ve baskıyı bekletmiyor."
+      "Hata düzeltmesi: Makine kapatılıp açıldığında ya da baskıdan sonra kapatılıp açıldığında bazen yeniden giriş isteniyordu; oturum artık korunuyor.",
+      "Yeni: Giriş ve Wi-Fi şifre ekranlarında, uzaktan bağlantıyla (ör. TeamViewer) kopyalanan metin Ctrl+V ile yapıştırılabiliyor.",
+      "Değişiklik: İşlem ekranında \"Dilimleniyor\" yerine \"İşleniyor\" yazıyor."
     ],
     "en": [
-      "New: the machine reports its live state to NovaHub (machine and board state, disk / memory / CPU usage, uptime; layer and remaining time while printing) at least every 5 seconds and right away when the state changes. It runs in the background and never holds up the screen or a print."
+      "Bug fix: after switching the machine off and on, or shutting it down after a print, it sometimes asked for a new sign-in; the session is now kept.",
+      "New: on the login and Wi-Fi password screens, text copied over a remote session (e.g. TeamViewer) can be pasted with Ctrl+V.",
+      "Change: the processing screen shows \"Processing\" instead of \"Slicing\"."
     ]
   },
-  "signature": "b2/kH+MGAZTxIgujO8o7R2aBAu6/Cj1wLew+oBvrX/M7XTkVDEW4813Sa5c6ml8eGRBb8ExcBy189xICkIaTBA=="
+  "signature": "D3h1aGMsmdSDjURg/LYfji6GqC2t0bf8JOQ/Zz3dNJSZbKkWobrZtYwWUDgWcqI1gP1s4v44Q17aXXDzL3/uAQ=="
 }
