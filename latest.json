@@ -1,23 +1,19 @@
 {
-  "issued_at": "2026-11-25T06:57:44Z",
-  "version": "4.6.1",
+  "issued_at": "2026-11-26T09:24:21Z",
+  "version": "4.6.2",
   "channel": "beta",
   "released_at": "2026-11-25",
-  "file": "MegaPlatform-v4.6.1",
-  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.6.1/MegaPlatform-v4.6.1",
-  "sha256": "c7d6f487434ba3f24f6ed726bfa84ddac141c8ec0bff235deab5044275d696b3",
-  "size": 152097752,
+  "file": "MegaPlatform-v4.6.2",
+  "url": "https://github.com/3bfab/novasoft-dist/releases/download/v4.6.2/MegaPlatform-v4.6.2",
+  "sha256": "6b072f6d8e37681a2b97188d2f77c33f7b61001d6caccd0b7445ac1b6a694d18",
+  "size": 152098040,
   "notes": {
     "tr": [
-      "Hata düzeltmesi: Makine kapatılıp açıldığında ya da baskıdan sonra kapatılıp açıldığında bazen yeniden giriş isteniyordu; oturum artık korunuyor.",
-      "Yeni: Giriş ve Wi-Fi şifre ekranlarında, uzaktan bağlantıyla (ör. TeamViewer) kopyalanan metin Ctrl+V ile yapıştırılabiliyor.",
-      "Değişiklik: İşlem ekranında \"Dilimleniyor\" yerine \"İşleniyor\" yazıyor."
+      "Yeni: NovaHub'a gönderilen baskı kayıtlarında, baskı başladığında makinede oturum açık olan kullanıcının e-postası da yer alıyor."
     ],
     "en": [
-      "Bug fix: after switching the machine off and on, or shutting it down after a print, it sometimes asked for a new sign-in; the session is now kept.",
-      "New: on the login and Wi-Fi password screens, text copied over a remote session (e.g. TeamViewer) can be pasted with Ctrl+V.",
-      "Change: the processing screen shows \"Processing\" instead of \"Slicing\"."
+      "New: print logs sent to NovaHub include the e-mail of the user signed in on the machine when the print started."
     ]
   },
-  "signature": "D3h1aGMsmdSDjURg/LYfji6GqC2t0bf8JOQ/Zz3dNJSZbKkWobrZtYwWUDgWcqI1gP1s4v44Q17aXXDzL3/uAQ=="
+  "signature": "mRhDvIkpW9Sn8oGb0vlj6RdLJ/JiTaBi6B3qQCN1LGRJTpED6H+8nNz8DmESGeUUtYmRPCbi+l69aOP7AN0gAQ=="
 }
